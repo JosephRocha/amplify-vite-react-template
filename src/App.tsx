@@ -23,14 +23,14 @@ function App() {
     <main>
       <form className="form-inline">
         <div className="form-group mx-sm-3 mb-2">
-          <input className="form-control" id="Ticker" placeholder="Stock" onKeyDown={handleTest} onInput={e=> setTicker(e.target.value)} />
+          <input className="form-control" id="Ticker" placeholder="Stock" onKeyDown={handleTest} onInput={e=> setTicker((e.target as HTMLInputElement).value)} />
         </div>
       </form>
 
 
       <div className="card text-center">
         <h1 >{Ticker}</h1>
-         Last Closing Price: {StockPrice}
+         <h2>Last Closing Price: {StockPrice}</h2>
       </div>
 
     </main>
