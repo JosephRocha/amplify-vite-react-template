@@ -4,7 +4,6 @@ import { generateClient } from "aws-amplify/data";
 
 const client = generateClient<Schema>();
 
-
 function App() {
 
   const [StockPrice, setStockPrice] = useState(0);
@@ -17,16 +16,12 @@ function App() {
   }
 
   function handleTest(e: any) {
-
-
     if (e.key == "Enter") {
       e.preventDefault();
       GetTicker();
       console.log(e);
     }
   }
-
-
 
   return (
     <main>
