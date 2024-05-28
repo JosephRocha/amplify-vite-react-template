@@ -1,16 +1,45 @@
 
 html{
-  height: 100%;
-  background-color: #1b1b1b;
+  background-color: #1e1e2d;
 }
 
 
 div{
-  background-color: antiquewhite;
+  background-color: #1e1e2d;
   height: 100%;
 }
 
 Main{
   padding: 5px;
-  background-color: #1b1b1b;
+  background-color: #1e1e2d;
 }
+
+#Bullicon{
+  height: 125px;
+  width: 125px;
+}
+
+h1{
+  color:white;
+  
+}
+
+h2{
+  color:white;
+  
+}
+
+h3{
+  color:aliceblue;
+}
+
+#Ticker{
+  border: none
+  
+}
+
+#searchButton{
+  border: none;
+  border-radius: 0px;
+}
+
