@@ -1,45 +1,38 @@
 
 html{
-  background-color: #1e1e2d;
+  background-color: #112132;
 }
 
 
-div{
-  background-color: #1e1e2d;
-  height: 100%;
-}
+
 
 Main{
   padding: 5px;
-  background-color: #1e1e2d;
+  background-color: #112132;
 }
 
 #Bullicon{
-  height: 125px;
-  width: 125px;
-}
-
-h1{
-  color:white;
-  
-}
-
-h2{
-  color:white;
-  
-}
-
-h3{
-  color:aliceblue;
+  max-height: 125px;
+  max-width: 125px;
 }
 
 #Ticker{
-  border: none
-  
+  border: none;
+  box-shadow: none;
+  background-color: #0d1a26;
 }
 
 #searchButton{
   border: none;
   border-radius: 0px;
+}
+
+#badgex{
+  margin-left: 10px;
+}
+
+#MainWindow{
+  background-color: #0d1a26;
+
 }
 
