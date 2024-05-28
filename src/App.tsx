@@ -18,7 +18,7 @@ function App() {
   }
 
   function handleTest(e: any) {
-    if (e.key == "Enter") {
+    if (e.key == "Enter" || e.type == "click") {
       setIsTickerSearched(false);
       e.preventDefault();
       GetTicker();
@@ -35,7 +35,7 @@ function App() {
             <div className="input-group p-3">
               <input className="form-control p-3 mb-2 text-white" id="Ticker" placeholder="Stock" onKeyDown={handleTest} onInput={e => setTicker((e.target as HTMLInputElement).value)} />
               <div className="input-group-append">
-                <button id="searchButton" className="btn bg-dark text-white form-control p-3" type="button">Search</button>
+                <button id="searchButton" className="btn bg-dark text-white form-control p-3" type="button" onClick={handleTest} >Search</button>
               </div>
             </div>
 
