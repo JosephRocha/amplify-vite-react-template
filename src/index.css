@@ -1,5 +1,6 @@
 
 html{
+  height: auto;
   background-color: #112132;
 }
 
@@ -22,6 +23,12 @@ Main{
   background-color: #0d1a26;
 }
 
+#searchicon{
+  border: none;
+  border-radius: 0px;
+  background-color: #0d1a26;
+}
+
 #searchButton{
   border: none;
   border-radius: 0px;
@@ -34,5 +41,15 @@ Main{
 #MainWindow{
   background-color: #0d1a26;
 
+}
+
+#Chart{
+  color:aliceblue
+}
+
+#Dedication{
+  background-color: #112132;
+  color: #0d1a26;
+  bottom: 1px;
 }
 
