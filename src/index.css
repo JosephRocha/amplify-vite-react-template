@@ -1,55 +1,69 @@
-
-html{
-  height: auto;
+html {
+  min-height: 100%;
+  /* make sure it is at least as tall as the viewport */
+  position: relative;
   background-color: #112132;
 }
 
-
-
-
-Main{
-  padding: 5px;
+Main {
   background-color: #112132;
 }
 
-#Bullicon{
+#Bullicon {
   max-height: 125px;
   max-width: 125px;
 }
 
-#Ticker{
+#Ticker {
   border: none;
   box-shadow: none;
   background-color: #0d1a26;
 }
 
-#searchicon{
+#searchicon {
   border: none;
   border-radius: 0px;
   background-color: #0d1a26;
 }
 
-#searchButton{
+#searchButton {
   border: none;
   border-radius: 0px;
 }
 
-#badgex{
+#badgex {
   margin-left: 10px;
 }
 
-#MainWindow{
+#MainWindow {
   background-color: #0d1a26;
 
 }
 
-#Chart{
-  color:aliceblue
+#Chart {
+  color: aliceblue
 }
 
-#Dedication{
+#Dedication {
   background-color: #112132;
   color: #0d1a26;
   bottom: 1px;
 }
 
+#ChartCard {
+  background-color: #112132;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+#ExpandCard {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+#ChartModal {
+  background-color: #112132;
+  color: white
+}
