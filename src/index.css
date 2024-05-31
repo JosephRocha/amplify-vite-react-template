@@ -14,10 +14,38 @@ Main {
   max-width: 125px;
 }
 
-#Ticker {
-  border: none;
+.rbt{
   box-shadow: none;
+  width: 80%;
+  max-height: 57px;
   background-color: #0d1a26;
+  color: white;
+}
+
+#Ticker2{
+  border: 0px;
+  background-color: #112132;
+  
+}
+
+.rbt-menu a{
+  background-color: #0d1a26;
+  color:white
+}
+
+.rbt-menu a:hover{
+  background-color: #112132;
+  color:white
+}
+
+.form-control:focus {
+  box-shadow: none !important; 
+  outline: none;
+  color:white
+}
+
+.rbt-input-hint{
+  color:white !important;
 }
 
 #searchicon {
